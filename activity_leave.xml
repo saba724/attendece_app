@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".leave"
+    android:background="@drawable/bgimage">
+
+    <RelativeLayout
+        android:id="@+id/rpro"
+        android:layout_width="match_parent"
+        android:layout_height="94dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Apply Leave"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2pro"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_below="@id/rpro"
+        android:layout_marginTop="60dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvpro"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/l1pro"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="163dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="From Date"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="163dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="-35dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:hint="dd/mm/yyyy"/>
+
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="163dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="To Date"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="163dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="-35dp"
+                    android:textColor="@color/black"
+                    android:hint="dd/mm/yyyy"
+                    android:textSize="20sp"/>
+
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv5"-->
+<!--                    android:layout_width="163dp"-->
+<!--                    android:layout_height="33dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:text="No of days"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:textColor="@color/black"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/tv6"-->
+<!--                    android:layout_width="163dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_marginLeft="200dp"-->
+<!--                    android:layout_marginTop="-35dp"-->
+<!--                   android:inputType="number"-->
+<!--                    android:textColor="@color/black"/>-->
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="163dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Reason"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/reason_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="20sp"
+                    android:inputType="text|textMultiLine"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/leave_btn"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_color_change"
+                    android:layout_centerInParent="true"
+                    android:text="Apply"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/White"
+                    android:layout_marginTop="20dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+

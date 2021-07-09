@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <WebView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/webview">-->
+<!--        -->
+<!--        -->
+<!--    </WebView>-->
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:text="Date"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+<!--        <TextView-->
+<!--            android:text="Name"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="bold"-->
+<!--             />-->
+<!--        <TextView-->
+<!--            android:text="Check_in"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="bold"-->
+<!--         />-->
+<!--        <TextView-->
+<!--            android:text="Check_out"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="bold"-->
+<!--            />-->
+<!--    </TableRow>-->
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:id="@+id/date_time"-->
+<!--            android:hint="Date"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/name_ad1"-->
+<!--            android:hint="Name"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="10sp"-->
+<!--             />-->
+<!--        <TextView-->
+<!--            android:id="@+id/in_time_ad1"-->
+<!--            android:hint="Check_in"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="10sp"-->
+<!--           />-->
+<!--        <TextView-->
+<!--            android:id="@+id/out_time_ad1"-->
+<!--            android:hint="Check_out"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="10sp"-->
+<!--             />-->
+<!--    </TableRow>-->
+
+
+
+
+
+</RelativeLayout>

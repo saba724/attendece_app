@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactus"
+    android:background="@drawable/bgimage">
+
+    <RelativeLayout
+        android:id="@+id/rpro"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Contact Us"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2pro"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:layout_below="@id/rpro"
+        android:layout_marginTop="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvpro"
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:id="@+id/l1pro"
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <ImageView
+
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/image"
+                        android:src="@drawable/email" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/image"
+                        android:layout_marginLeft="30dp"
+                        android:text="believerslpvt@gmail.com"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/image"
+                        android:src="@drawable/phone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/image"
+                        android:layout_marginLeft="30dp"
+                        android:text="+91 8088203495  \n +91 8550876560"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/image"
+                        android:src="@drawable/website" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/image"
+                        android:layout_marginLeft="30dp"
+                        android:text="www.believerz.in"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/image"
+                        android:src="@drawable/address"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/image"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center"
+                        android:text="CTS NO. 3941/2-A Club road,opposite of mahaveer canteen,Belagavi"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/image"
+                        android:src="@drawable/insta" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/image"
+                        android:layout_marginLeft="30dp"
+                        android:text="_believers.enterprises"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+
+
+
+<!--                <ImageView-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_below="@id/image"-->
+<!--                    android:layout_marginTop="50dp"-->
+<!--                    android:layout_marginLeft="50dp"-->
+<!--                    android:src="@drawable/address"/>-->
+<!--                <TextView-->
+<!--                    android:id="@+id/tv4"-->
+<!--                    android:layout_width="190dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:layout_below="@+id/tv3"-->
+<!--                    android:layout_marginLeft="130dp"-->
+<!--                    android:layout_marginTop="-70dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:text="CTS NO. 3941/2-A Club road,opposite of mahaveer canteen,Belagavi"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="normal" />-->
+
+
+
+<!--                <ImageView-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_below="@id/image"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginLeft="50dp"-->
+<!--                android:src="@drawable/insta"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv6"-->
+<!--                android:layout_width="190dp"-->
+<!--                android:layout_height="49dp"-->
+<!--                android:layout_below="@+id/tv5"-->
+<!--                android:layout_marginLeft="130dp"-->
+<!--                android:layout_marginTop="-50dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="_believers.enterprises"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="19sp"-->
+<!--                android:textStyle="normal" />-->
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminmgmt"
+    android:background="@drawable/bgimage">
+
+    <RelativeLayout
+        android:id="@+id/rlayout"
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:paddingBottom="50dp">
+
+                <Button
+                    android:id="@+id/in_out"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_color_change"
+                    android:text="check_in check_out time"
+                    android:textColor="@color/White"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="70dp"/>
+
+                <Button
+                    android:id="@+id/leavead"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_color_change"
+                    android:text="leave management"
+                    android:textColor="@color/White"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="70dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".check_in_out"
+    android:background="@drawable/bgimage">
+
+    <TextView
+        android:id="@+id/in_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check_in and Check_out Applications"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"/>
+
+    <RelativeLayout
+            android:id="@+id/rlayout"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/in_out"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+
+        <TextView
+        android:id="@+id/c_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/c_timetv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Login time :"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:fontFamily="sans-serif-light"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginLeft="70dp"/>-->
+
+            <TextView
+        android:id="@+id/c_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/out_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_entrydone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:text="Today's Entry is done..!"
+                android:visibility="gone"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/sbmt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_color_change"
+            android:layout_centerInParent="true"
+            android:text="Submit"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/White"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/cv"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_time"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@drawable/rounded"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:text="Set In_Time"-->
+    <!--        android:layout_marginLeft="110dp"-->
+    <!--        android:textColor="@color/White"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:textSize="25dp"-->
+    <!--        android:visibility="gone"/>-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn_out"-->
+    <!--                android:layout_width="200dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:background="@drawable/rounded"-->
+    <!--                android:layout_centerInParent="true"-->
+    <!--                android:text="Set Out_Time"-->
+    <!--                android:layout_marginLeft="110dp"-->
+    <!--                android:textColor="@color/White"-->
+    <!--                android:layout_marginTop="20dp"-->
+    <!--                android:textSize="25dp"-->
+    <!--                android:visibility="gone"/>-->

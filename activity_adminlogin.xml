@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminlogin"
+    android:background="@drawable/bgimage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/head"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvheader"
+        android:text="Welcome to App"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvheader"
+        android:text=" Admin Login"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rlayout"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Enter Email"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/usn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Enter Password"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/emp_ps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textPassword"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnlog"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cv"
+            android:background="@drawable/btn_color_change"
+            android:layout_centerInParent="true"
+            android:text="Login"
+            android:textColor="@color/White"
+            android:layout_marginTop="40dp"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
